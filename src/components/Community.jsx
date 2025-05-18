@@ -8,7 +8,7 @@ const Community = () => {
       id: 1,
       title: 'Krithomedh Student Club',
       role: 'Web Developer and Event Management Volunteer',
-      description: 'Contributing to the tech community through web development initiatives at GDGC VNRVJIET.',
+      description: 'Contributing to the tech community through web development initiatives at Krithomedh VNRVJIET.',
       icon: <FaUsers className="text-[#00ffff]" />,
       tags: ['Web Development', 'Community', 'Event Management']
     },

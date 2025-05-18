@@ -36,7 +36,7 @@ const About = () => {
               <p>
                 Hi, I'm <span className="text-white font-semibold">GANGISHETTI DEVAAMSH</span>, 
                 an enthusiastic frontend developer from Hyderabad. I'm currently in my final year studying 
-                Computer Science at <span className="text-white font-semibold">VNRVJIET</span>.
+                Computer Science at <span className="text-white font-semibold">VNR VJIET</span>.
               </p>
               
               <p>
