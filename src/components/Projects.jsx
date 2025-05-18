@@ -7,42 +7,42 @@ const Projects = () => {
     {
       id: 1,
       title: 'Bus Booking App',
-      description: 'A user-friendly app that simplifies bus ticket booking with real-time schedules, seat selection, and secure payments.',
+      description: ' A comprehensive platform enabling users to search for bus routes, select seats in real-time, and make secure online payments, streamlining the ticket booking process.',
       image: '/busbooking.png',
       githubLink: 'https://github.com/devaamsh2006/bus-booking-app',
     },
     {
       id: 2,
       title: 'Canteen Management App',
-      description: 'A personalized company website showcasing services and company information.',
+      description: 'An integrated system designed to manage canteen operations, including order processing, inventory tracking, enhancing efficiency and reducing manual workload..',
       image: '/canteen.png',
       githubLink: 'https://github.com/devaamsh2006/dt-project'
     },
     {
       id: 3,
       title: 'Mall Management',
-      description: 'A playstation controller shopping website made using HTML, CSS, JS & GSAP',
+      description: 'An interactive web application showcasing a virtual mall environment, developed using HTML, CSS, JavaScript, and GSAP, providing users with an immersive shopping experience.',
       image: '/mall.jpg',
       githubLink: 'https://github.com/devaamsh2006/mallwebsite',
     },
     {
       id: 4,
       title: 'Blog App',
-      description: 'An Employee Timesheet Management Website featuring weekly timesheet submission and a dashboard.',
+      description: 'A user-friendly blogging platform allowing users to create, edit, and manage posts, with features like categorization, commenting, and responsive design for optimal readability.',
       image: '/blog.png',
       githubLink: 'https://github.com/devaamsh2006/blog'
     },
     {
       id: 5,
       title: 'Event Management App',
-      description: 'A personalized company website showcasing services and company information.',
+      description: 'A versatile tool for planning and managing events, offering functionalities such as attendee registration, schedule management, and real-time updates to ensure seamless event execution.',
       image: '/event.jpeg',
       githubLink: 'https://github.com/devaamsh2006/Webathon'
     },
     {
       id: 6,
       title: 'Resume Analyser',
-      description: 'A playstation controller shopping website made using HTML, CSS, JS & GSAP',
+      description: 'An AI-powered application that evaluates resumes, providing insights on strengths and areas for improvement, assisting users in enhancing their professional profiles.',
       image: '/resume-analyser.png',
       githubLink: 'https://github.com/devaamsh2006/ai-resume-analyser'
     }
