@@ -7,46 +7,45 @@ const Projects = () => {
     {
       id: 1,
       title: 'Bus Booking App',
-      description: ' A comprehensive platform enabling users to search for bus routes, select seats in real-time, and make secure online payments, streamlining the ticket booking process.',
+      description: ' A full-stack ticket reservation system built with React and Express.js. It allows users to search bus routes, view real-time seat availability, and make secure online payments. Backend APIs handle routing, bookings, and user data management.',
       image: '/busbooking.png',
       githubLink: 'https://github.com/devaamsh2006/bus-booking-app',
     },
     {
       id: 2,
       title: 'Canteen Management App',
-      description: 'An integrated system designed to manage canteen operations, including order processing, inventory tracking, enhancing efficiency and reducing manual workload..',
+      description: 'A React and Express-based system for managing canteen operations, including order placement and inventory tracking. Each order generates a unique QR code, which, when scanned by the admin, marks the order as served in real-time.',
       image: '/canteen.png',
       githubLink: 'https://github.com/devaamsh2006/dt-project'
     },
     {
       id: 3,
       title: 'Mall Management',
-      description: 'An interactive web application showcasing a virtual mall environment, developed using HTML, CSS, JavaScript, and GSAP, providing users with an immersive shopping experience.',
+      description: 'An interactive virtual mall simulation built using React, Express.js. It showcases dynamic store navigation and enhances user engagement through a visually rich frontend.',
       image: '/mall.jpg',
       githubLink: 'https://github.com/devaamsh2006/mallwebsite',
     },
     {
       id: 4,
       title: 'Blog App',
-      description: 'A user-friendly blogging platform allowing users to create, edit, and manage posts, with features like categorization, commenting, and responsive design for optimal readability.',
+      description: 'A blogging platform developed with React and Express.js that lets users create, edit, and manage posts. It supports commenting, categorization, and delivers a responsive and intuitive user interface.',
       image: '/blog.png',
       githubLink: 'https://github.com/devaamsh2006/blog'
     },
     {
       id: 5,
       title: 'Event Management App',
-      description: 'A versatile tool for planning and managing events, offering functionalities such as attendee registration, schedule management, and real-time updates to ensure seamless event execution.',
+      description: 'A versatile event planning tool using the MERN stack, supporting registration, schedule management, and real-time updates. It enables seamless coordination between event organizers and participants.',
       image: '/event.jpeg',
       githubLink: 'https://github.com/devaamsh2006/Webathon'
     },
     {
       id: 6,
       title: 'Resume Analyser',
-      description: 'An AI-powered application that evaluates resumes, providing insights on strengths and areas for improvement, assisting users in enhancing their professional profiles.',
+      description: 'An AI-powered resume evaluation tool built with React and Express, integrated with the Gemini API. It analyzes resumes and provides intelligent feedback to help users improve their professional profiles.',
       image: '/resume-analyser.png',
       githubLink: 'https://github.com/devaamsh2006/ai-resume-analyser'
     }
-    // Add more projects here in the same format
   ]
 
   return (
