@@ -34,14 +34,24 @@ const Hero = () => {
             <h1 className="text-3xl md:text-4xl font-bold mb-2">My name is</h1>
             <h1 className="text-4xl md:text-6xl font-bold text-[#00ffff] mb-4">GANGISHETTI DEVAAMSH</h1>
             <p className="text-2xl md:text-3xl text-gray-300 mb-8">A FULLSTACK WEB DEVELOPER!</p>
-            <Link 
-              to="Contact"
-              smooth={true}
-              duration={500}
-              className="inline-block bg-[#00ffff] text-[#1a1a1a] px-6 md:px-8 py-3 rounded-full font-semibold
-                       hover:bg-[#00cccc] transition-colors cursor-pointer">
-              CONTACT ME
-            </Link>
+            <div className="flex gap-4">
+              <Link 
+                to="Contact"
+                smooth={true}
+                duration={500}
+                className="inline-block bg-[#00ffff] text-[#1a1a1a] px-6 md:px-8 py-3 rounded-full font-semibold
+                         hover:bg-[#00cccc] transition-colors cursor-pointer">
+                CONTACT ME
+              </Link>
+              <a 
+                href="/resume.pdf" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="inline-block border-2 border-[#00ffff] text-[#00ffff] px-6 md:px-8 py-3 rounded-full font-semibold
+                         hover:bg-[#00ffff] hover:text-[#1a1a1a] transition-colors">
+                RESUME
+              </a>
+            </div>
           </motion.div>
 
           {/* Illustration */}
