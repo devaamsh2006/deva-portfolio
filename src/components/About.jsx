@@ -35,8 +35,8 @@ const About = () => {
             <div className="space-y-8 text-xl text-gray-300">
               <p>
                 Hi, I'm <span className="text-white font-semibold">GANGISHETTI DEVAAMSH</span>, 
-                an enthusiastic frontend developer from Hyderabad. I'm currently in my final year studying 
-                Computer Science at <span className="text-white font-semibold">VNR VJIET</span>.
+                an enthusiastic frontend developer from Hyderabad. I'm currently in my second year studying 
+                Computer Science ( Artificial Intelligence and Machine Learning ) at <span className="text-white font-semibold">VNR VJIET</span>.
               </p>
               
               <p>
@@ -69,4 +69,4 @@ const About = () => {
   )
 }
 
-export default About
+export default Abou
