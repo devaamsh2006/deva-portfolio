@@ -55,7 +55,7 @@ const Contact = () => {
   }
 
   return (
-    <div className="min-h-screen bg-[#1a1a1a] text-white py-20">
+    <div id="Contact" className="min-h-screen bg-[#1a1a1a] text-white py-20">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           <motion.div

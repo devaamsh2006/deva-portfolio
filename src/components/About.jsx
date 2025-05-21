@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 
 const About = () => {
   return (
-    <div className="min-h-screen bg-[#1a1a1a] text-white py-20">
+    <div id="About" className="min-h-screen bg-[#1a1a1a] text-white py-20">
       <div className="container mx-auto px-4">
         <div className="flex flex-col lg:flex-row items-center justify-between gap-12 max-w-7xl mx-auto">
           {/* Left side - Image */}
@@ -58,7 +58,7 @@ const About = () => {
               className="mt-12 bg-transparent border-2 border-[#00ffff] text-[#00ffff] 
                        px-10 py-4 rounded-full text-lg font-semibold hover:bg-[#00ffff] hover:text-[#1a1a1a] 
                        transition-all duration-300"
-              onClick={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })}
+              onClick={() => document.getElementById('Contact').scrollIntoView({ behavior: 'smooth' })}
             >
               CONTACT
             </motion.button>
